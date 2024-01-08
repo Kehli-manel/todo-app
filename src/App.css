@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Ubuntu&display=swap');
+
+.app {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #6D5D6E;
+  border-radius: 25px;
+  
+}
+
+.header {
+  text-align: center;
+  color: #03001C;
+}
+.add-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.todo-container{
+  display: flex;
+  justify-content: center;
+}
+.todo-container img{
+  width: 40px;
+}
+.todo-container input{
+  font-family: 'Preahvihear', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  width: 350px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 15px;
+  color: #0d0b27;
+}
+.todo-list li{
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+.todo-list li div{
+ 
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  width: 80%;
+  
+
+}
+.delet-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list{
+  height: 400px; 
+  overflow: scroll;
+}
+.list::-webkit-scrollbar{
+  display: none;
+}
